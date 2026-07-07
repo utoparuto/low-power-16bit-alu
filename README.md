@@ -19,6 +19,22 @@ Three different ALU architectures were implemented, verified, synthesized, and a
 
 ---
 
+## Project Contribution
+
+This project was completed as part of a team mini-project.
+
+My primary contributions included:
+- RTL design in Verilog HDL
+- Integrated Clock Gating implementation
+- Two-stage pipelined architecture
+- Functional verification and testbench development
+- Logic synthesis using Yosys
+- Power analysis using OpenSTA/OpenLane
+
+The uploaded report and presentation are the original course submission prepared by the project team.
+
+---
+
 ## Features
 
 - 16-bit ALU designed in Verilog HDL

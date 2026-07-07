@@ -1,0 +1,22 @@
+read_verilog tharika.v
+
+hierarchy -top tharika
+
+proc
+opt
+fsm
+opt
+memory
+opt
+
+synth
+
+techmap
+opt
+
+abc -fast
+
+clean
+
+show tharika
+write_verilog baseline_netlist.v
